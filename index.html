@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TODO APP</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="container">
+      <h1 id="todoApp">TODO APP</h1>
+      <table id="fullTable" border="1px">
+         <thead>
+            <tr>
+               <th>NO.</th>
+               <th>Title</th>
+               <th>Description</th>
+               <th>Action</th>
+            </tr>
+         </thead>
+
+         <tfoot>
+            <tr>
+               <td>
+                  <input type="text" placeholder="Your Title" id="title">
+               </td>
+               <td colspan="2">
+                  <input type="text" placeholder="Your Description" id="desc">
+               </td>
+               <td>
+                  <center><button id="btn-add">ADD</button></center>
+               </td>
+            </tr>
+         </tfoot>
+
+         <tbody id="tableBody">
+            
+         </tbody>
+      </table>
+
+      <div id="formEdit">
+         <div>
+            <input type="text" id="ubdedTitle">
+            <input type="hidden" value="" id="arrayIndex">
+            <button id="cancel">CANCEL</button>
+            <button id="ubdate">UBDATE</button>
+         </div>
+         <div>
+            <textarea name="" id="ubdatedesc" cols="30" rows="5"></textarea>
+         </div>
+      </div>
+   </div>
+
+
+   <script src="js/main.js"></script>
+</body>
+</html>

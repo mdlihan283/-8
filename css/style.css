@@ -1,0 +1,98 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+.container {
+   width: 800px;
+   margin: auto;
+}
+
+h1#todoApp {
+   font-size: 30px;
+   font-family: arial black;
+   color: #333;
+   margin-bottom: 20px;
+}
+
+table#fullTable {
+   border-collapse: collapse;
+}
+
+table#fullTable thead tr th {
+   padding: 15px;
+}
+
+table#fullTable tbody tr td {
+   padding: 15px;
+}
+
+table#fullTable tbody tr td button{
+   border: none;
+   padding: 15px;
+   width: 94px;
+   text-align: center;
+   color: #fff;
+   font-family: arial;
+   font-weight: 600;
+   cursor: pointer;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+
+table#fullTable tfoot tr td input {
+   padding: 15px;
+   border: none;
+}
+
+#edit{
+   background: #4abf00;
+}
+#dlt{
+   background: red;
+}
+button#btn-add:hover{
+   cursor: pointer;
+}
+#btn-add{
+   background: #4abf00;
+   border: none;
+   padding: 15px;
+   width: 100px;
+   text-align: center;
+   color: #fff;
+   font-family: arial;
+   font-weight: 600;
+   cursor: pointer;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+
+div#formEdit input,textarea {
+   padding: 10px 10px;
+   margin-top: 15px;
+}
+
+div#formEdit{
+   display: none;
+}
+
+div#formEdit button {
+   border: navajowhite;
+   padding: 15px;
+   width: 100px;
+   color: white;
+   background: red;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+button#ubdate {
+   background: #3888ff !important;
+}
